@@ -1,5 +1,5 @@
 # NucSIM
-Simulation of Pressurised Water Reactor and attached Steam Turbine for Power Generation
+Simulation of Pressurised Water Reactor and attached Steam Turbine for Power Generation.
 
 This simulation represents a rather basic model of a 3500MW(thermal) Pressurised Water Nuclear Reactor and associated Steam Turbine for power generation.\
 \
@@ -7,7 +7,7 @@ It is still very much a work in progress but currently can simulate operation of
 
 - 4-loop PWR reactor
 - Pressuriser with heater and spray controllers
-- Reactor SOurce/Intermediate/Power range flux meters
+- Reactor Source/Intermediate/Power range flux meters
 - Chemical and Volume Control system (CVCS) with borating/dilution control
 - Estimation of criticality
 - Effects of all components +/- of reactivity (although still working to get the negative reactivity effects of Iodine/Xenon accurate)
@@ -40,6 +40,6 @@ The following is my to-do list;
 - tidy up each screen and add trending where appropriate
 - standardise KKS plant coding for all equipment
 - improve Iodine/Xenon negative effect on reactivity modelling
-- add further faults that may be experienced into the simulatio
+- add further faults that may be experienced into the simulation
 
 I will upload some videos of simulator operation in the near future and hope to have this project finished before the end of 2024.
