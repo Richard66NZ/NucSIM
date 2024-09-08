@@ -28,6 +28,12 @@ Please find some current screenshots below.
 
 ![Opening Screen view](/Screenshots/Reactor_Control_25%_load.png)
 
+![Opening Screen view](/Screenshots/Pressuriser.png)
+
+![Opening Screen view](/Screenshots/Steam_Generator_1.png)
+
+![Opening Screen view](/Screenshots/Reactor_Control_100%_load.png)
+
 The following is my to-do list;
 
 - complete operations manual
