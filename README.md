@@ -3,7 +3,7 @@ Simulate operations of Pressurised Water Reactor and attached Steam Turbine for 
 
 This simulation represents a rather basic model of a 3500MW(thermal) Pressurised Water Nuclear Reactor and associated Steam Turbine for power generation.\
 \
-It is still very much a work in progress but currently can simulate operation of a PWR reactor from mode 5 condition (cold shut down) until mode 1 (on load) and then up to full load. Some of the area/items already implemented include;
+It is still very much a work in progress but currently can simulate operation of a PWR reactor from mode 5 condition (cold shut down) until mode 1 (power operations) and then up to full load. Some of the area/items already implemented include;
 
 - 4-loop PWR reactor
 - Pressuriser with heater and spray controllers
