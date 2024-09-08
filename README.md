@@ -14,7 +14,7 @@ It is still very much a work in progress but currently can simulate operation of
 - 4 x Steam Generators
 - Emergency Cooling Water system, with cold leg accumulator, LP/HP Emergency cooling pumps and containment spray pumps
 - Alarm/Event, Trip/SCRAM and Runback systems
-- simlified Condensate and Feedwater Systems
+- simplified Condensate and Feedwater Systems
 - simplified Main Cooling Water, Service Water and Closed Cooling Water systems
 - simulation of various faults (Fallen rod, Ejected rod, Turbine trip, RCP trip and Runback, LOCA (Loss of Collant Accident)
 
