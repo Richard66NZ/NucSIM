@@ -18,5 +18,13 @@ It is still very much a work in progress but currently can simulate operation of
 - simplified Main Cooling Water, Service Water and Closed Cooling Water systems
 - simulation of various faults (Fallen rod, Ejected rod, Turbine trip, RCP trip and Runback, LOCA (Loss of Collant Accident)
 
+Please find some current screenshots below
+![Opening Screen view](/Screenshots/Reactor Control screen.png)
 
-![Opening Screen view](/Screenshots/About.png)
+The following is my to-do list;
+
+- complete operations manual
+- tidy up each screen and add trending where appropriate
+- standardise KKS plant coding for all equipment
+- improve Iodine/Xenon negative effect on reactivity modelling
+- add further faults that may be experienced into the simulatio
