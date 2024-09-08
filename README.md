@@ -19,7 +19,7 @@ It is still very much a work in progress but currently can simulate operation of
 - simulation of various faults (Fallen rod, Ejected rod, Turbine trip, RCP trip and Runback, LOCA (Loss of Collant Accident)
 
 Please find some current screenshots below
-![Opening Screen view](/Screenshots/Reactor Control screen.png)
+![Opening Screen view]("/Screenshots/Reactor Control screen.png")
 
 The following is my to-do list;
 
