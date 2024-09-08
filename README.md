@@ -26,13 +26,13 @@ Please find some current screenshots below.
 
 ![Opening Screen view](/Screenshots/Steam_Turbine_300MW.png)
 
-![Opening Screen view](/Screenshots/Reactor_Control_25%_load.png)
+![Opening Screen view](/Screenshots/Reactor_Control_25pct_load.png)
 
 ![Opening Screen view](/Screenshots/Pressuriser.png)
 
 ![Opening Screen view](/Screenshots/Steam_Generator_1.png)
 
-![Opening Screen view](/Screenshots/Reactor_Control_100%_load.png)
+![Opening Screen view](/Screenshots/Reactor_Control_100pct_load.png)
 
 The following is my to-do list;
 
