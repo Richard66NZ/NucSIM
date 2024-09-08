@@ -1,5 +1,5 @@
 # NucSIM
-Simulation of Pressurised Water Reactor and attached Steam Turbine for Power Generation.
+Simulate operations of Pressurised Water Reactor and attached Steam Turbine for Power Generation.
 
 This simulation represents a rather basic model of a 3500MW(thermal) Pressurised Water Nuclear Reactor and associated Steam Turbine for power generation.\
 \
