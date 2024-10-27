@@ -42,8 +42,8 @@ The following is my to-do list;
 - improve Iodine/Xenon negative effect on reactivity modelling
 - add further faults that may be experienced into the simulation
 
-I will upload some videos of simulator operation in the near future and hope to have this project finished before the end of 2024.
+Please find videos of simulator operation below - first is reactor startup from cold until full load, and second is reactor response to a large break loss of coolant accident.
 
-[![Example video](https://img.youtube.com/vi/be/oIUNryUayWU/0.jpg)](https://youtu.be/oIUNryUayWU)
+[![Example video](https://img.youtube.com/vi/oIUNryUayWU/0.jpg)](https://youtu.be/oIUNryUayWU)
 
-
+[![Example video](https://img.youtube.com/vi/eyKUxV_y2rk/0.jpg)](https://youtu.be/eyKUxV_y2rk)
