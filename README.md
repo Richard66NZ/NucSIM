@@ -43,3 +43,7 @@ The following is my to-do list;
 - add further faults that may be experienced into the simulation
 
 I will upload some videos of simulator operation in the near future and hope to have this project finished before the end of 2024.
+
+[![Example video](https://img.youtube.com/vi/be/oIUNryUayWU/0.jpg)](https://youtu.be/oIUNryUayWU)
+
+
