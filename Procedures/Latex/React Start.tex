@@ -1,0 +1,236 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{xfrac}
+\usepackage[version=3]{mhchem}
+\usepackage{capt-of}
+\usepackage[final]{pdfpages}
+\usepackage{textcomp}
+\usepackage{setspace}
+\usepackage{gensymb}
+\usepackage{wallpaper}
+
+\usepackage{geometry}
+\usepackage{pdflscape}
+\usepackage[final]{pdfpages}
+
+\author{Richard J Smith\\richardsmith@asia.com}
+\setlength{\parindent}{0cm}
+\date{1 July 2014}
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+
+\begin{document}
+
+\pagenumbering{gobble}
+\title{}
+%\includepdf{images/cover.pdf}
+%\maketitle
+
+\newgeometry{top=1cm, bottom=1cm, left=2.5cm}
+
+%{table}[]
+\begin{spacing}{2}
+\begin{tabular}{|L{3.5cm}|L{3.5cm}|L{3.5cm}|L{3.5cm}|}
+\hline
+\multicolumn{2}{|l|}{ACME NucPower Procedure}                                        & \multicolumn{2}{r|}{OPS-N-0001-B}           \\ \hline
+Title:                                                          & \multicolumn{3}{c|}{{\large \textbf{ACME NucPower Unit 1 Reactor Start up}}}                   \\ \hline
+Author:                                                         & R.J.Smith          & Authorised by:          & {\hspace*{0.5cm}\parbox[c]{1em}{\includegraphics[width=2cm]{images/hancocksig.jpg}}}                  \\ \hline
+Review Date:                                                    & 1 January 2027       & Date Authorised:        & 17 March 2025       \\ \hline
+\begin{tabular}[c]{@{}l@{}}Associated\\ Documents:\end{tabular} & \multicolumn{3}{l|}{\begin{tabular}[c]{@{}l@{}} None  \\
+\end{tabular}} \\ \hline
+\end{tabular}
+\end{spacing}
+%\end{table}
+
+%\begin{table}[]
+\begin{spacing}{1.5}
+\begin{tabular}{|C{1.2cm}|C{2.2cm}|C{2.2cm}|C{2.2cm}|C{3.3cm}|C{2cm}|}
+\hline
+Rev & Date        & Author      & \begin{tabular}[c]{@{}c@{}}Authorised\\ By\end{tabular} & Modification & Status \\ \hline
+A   & 1 Jan 2025 & R.J.Smith & J. Hancock                                              & First draft  & Draft  \\ \hline
+B   & 17 Mar 2025 & R.J.Smith & J.Hancock                                           & Finalised  & Issued  \\ \hline
+    &             &             &                                                         &              &        \\ \hline
+    &             &             &                                                         &              &        \\ \hline
+    &             &             &                                                         &              &        \\ \hline
+\end{tabular}
+\end{spacing}
+%\end{table}
+
+
+%\tableofcontents
+
+%\restoregeometry
+
+%\pagebreak
+
+%\ULCornerWallPaper{1}{images/TopHeader.jpg}
+%\LLCornerWallPaper{1}{images/BottomHeader.jpg}
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\section*{Summary}
+This procedure provides a step by step instruction for ACME NucPower Unit 1 Reactor start up from cold conditions. It shall be used as a reference each time this plant is started and a record kept of plant start up progress and any issues, events or error for future improvements.\\
+\\
+The reactor has 5 operating modes as described below;
+\begin{description}
+\item[Mode 5] Cold shutdown - reactor is sub-critical with 0\% power output and primary coolant average temperature $<$ 95 degC.
+\item[Mode 4] Hot shutdown - reactor is sub-critical with 0\% power output and primary coolant average temperature is $>$ 95 degC and $<$ 176 degC.
+\item[Mode 3] Hot standby - reactor is sub-critical with 0\% power output and primary coolant average temperature $>$ 176 degC.
+\item[Mode 2] Startup - reactor is critical with power output $<$ 5\%
+\item[Mode 1] Power operations - reactor is critical with power output $>$ 5\%
+\end{description}
+
+\section*{Start Up procedure}
+The following is an operations procedure to take the plant from a Cold Shutdown condition (mode 5) and pass through all the steps required to commence Power Operation (Mode 1) and then achieve plant full load.\\
+\\
+The reactor has just completed a refuelling where approximately 33\% of the spent fuel rod have been removed for reprocessing and replace with new, therefore most of the the plant equipment is shutdown and will need to be re-started in the correct order to ensure safe operation.
+\begin{list}{$\bullet$}{}
+\item Reactor SCRAM active and at Mode 5 condition (Cold Shutdown).
+\item Pressuriser wet stored (water level raised to near top of vessel to prevent corrosion).
+\item Reactor primary circuit filled with borated water - current concentration is 2450 ppm.
+\item Refuelling Water Storage Tank (RWST) filled with borated water
+\item Containment vessel HVAC (Heating, Ventilation and Air Conditioning) system (0KLA10AN001) is running.
+\item Condensate system filled with demin water and Condenser Hotwell (01MAG10BB001) is at normal working level.
+\item Feedwater system filled with demin water and Deaerator vessel (01LAA10BB001) is at normal working level.
+\item All Steam Generators are wet stored.
+\item Cold Leg accumulator are filled with highly borated water and isolated.
+\item Electrical system are on line and Emergency Diesel Generators (EDG's) selected to Auto start.
+\end{list}
+The step by step procedure below should now be followed to start the reactor in a safe manner.
+\begin{enumerate}
+\item START Cooling Water system controller (01PAA10AH001). This will start the following pumps in sequence so as to place the Main Cooling Water, Service Water and Closed Cooling Water systems in service;
+\begin{list}{$\bullet$}{}
+\item 01PAC10AP001 - Main Cooling Water pump
+\item 01PJA10AP001 - Service Water pump
+\item 01KAA10AP001 - Closed Cooling Water pump
+\end{list}
+\item OPEN valve 01LAC60AA501 to drain Steam Generator 1 (01JEA10BB001) down to Normal Working Level (NWL). Steam Generators have been wet stored so the level must be reduced before Feedwater pump start permissive is obtained. Once level is at 50\% (NWL) then valve 01LAV60AA501 will automatically CLOSE. The level of SG1 can be monitored on level gauge 01JEA10CL001.
+\item OPEN valve 01LAC70AA501 to drain Steam Generator 2 (01JEA20BB001) down to NWL.
+\item OPEN valve 01LAC80AA501 to drain Steam Generator 3 (01JEA30BB001) down to NWL.
+\item OPEN valve 01LAC90AA501 to drain Steam Generator 4 (01JEA40BB001) down to NWL.
+\item START Chemical and Volume Control system (CVCS) Charging pump (either 01KBD10AP001 or 01KBD20AP001).
+\item SELECT CVCS mode to DRAIN. This will reduce the Pressuriser level from its wet stored condition to NWL. Once Pressuriser NWL is achieved then draining will stop.
+\item SELECT CEP/FWP system controller (01LCA/LAC10AH001) to AUTO. This will start the sequence for placing these system in service as follows;
+\begin{list}{$\bullet$}{}
+\item START Condensate Extraction Pump 1 (01LCA10AP001).
+\item Clean up the condensate system by recirculating the condensate water back to the condenser (and through a mixed bed vessel) by OPENING valve 01LCA50AA001.
+\item Once Condensate system clean-up completed CLOSE valve 01LCA50AA001.
+\item START Auxiliary Feedwater Pump 1 (01LAJ10AP001).
+\item Clean up the Feedwater system by recirculating the feedwater back to Deaerator storage tank (01LAA10BB001) by OPENING valve 01LAC60AA001.
+\item Once Feedwater system clean-up completed CLOSE valve 01LCA60AA001.
+\item Place all remaining Condensate Extraction pumps, Auxiliary Feedwater pumps and Main Feedwater pumps on AUTO, so they will START and STOP as required by reactor load.
+\end{list}
+\item Take first ESTIMATE of CRITICALITY.
+\item SELECT ECCS (Emergency Core Cooling System) system (01JNB00AH001) to AUTO. This will align pump suction valves to accept feed from RWST tank (valve 01JNK10AA001 OPEN) and isolate suction from reactor containment sump (valve 01KPF10AA001 CLOSED). All Emergency Cooling water pumps (HP and LP) will now automatically start when required.
+\item SELECT Containment Spray system (01JMN10AH001) to AUTO.
+\item START Residual Heat Removal pump (01JNA10AP001).
+\item SELECT Pressuriser Spray valve (01JEF10AH001) controller to AUTO. After a short interval spray water block valve (01JEF10AA001) will open fully and spray water control valve (01JEF10AA151) will open to minimum opening of 5\%.
+\item SELECT Pressuriser Heater controller (01JEF10AH002) to AUTO. This will cause Pressuriser heaters to go to 100\% power and start warming primary circuit coolant from ambient conditions up to operating Pressure and Temperatures.
+\item MONITOR primary circuit Pressure and Temperature as these increase. Note - as primary circuit temperature rises the water within this circuit will expand and Pressuriser level will increase.
+\item START Reactor Coolant Pump (RCP) 1 (01JEB10AP001) after Reactor pressure (01JKA10CP001) is $>$ 20 bar.
+\item STOP Residual Heat Removal pump (01JNA10AP001) as it is no longer required for circulating primary circuit coolant.
+\item START RCP 4 (01JEB40AP001) after Reactor pressure (01JKA10CP001) is $>$ 30 bar.
+\item START RCP 2 (01JEB20AP001) after Reactor pressure (01JKA10CP001) is $>$ 40 bar.
+\item START RCP 3 (01JEB30AP001) after Reactor pressure (01JKA10CP001) is $>$ 50 bar.
+\item When reactor primary circuit pressure (01JKA10CP001) is $>$ 142 bar OPEN Safety Injection Isolation valve (01JNG60/70/80/90AA001).
+\item REACTOR is now ready to reset SCRAM.
+\item Take second ESTIMATE of CRITICALITY.
+\item If indicated boron concentration from Criticality Estimate is different than current primary circuit boron concentration (01KTA10CQ001), adjust primary circuit boron concentration by either diluting or borating using CVCS Control panel.
+\item WAIT until boron concentration in primary circuit (01KTA10CQ001) has reached required value before proceeding.
+\item SELECT Source Range flux meter (01JKA10CR001).
+\item RESET SCRAM (01JKA10AH001). This will allow Reactor Protection Rods to be withdrawn.
+\item SELECT retract (R) for Reactor Protection Rod 01JDA10CG001.
+\item MONITOR Source range flux meter for increasing activity and Neutron trend for any sudden increases. If this trend increases suddenly then stop rod withdrawal and reassess Criticality Estimate.
+\item MONITOR Start Up Rate (SUR) gauge (01JSA10CR001) to ensure increase in reactivity rate stays within design limits (SUR High alarm at 2 decades, whilst Reactor SCRAM at 3 decades).
+\item WAIT until Reactor Protection Rod  01JDA10CG001 is fully retracted (NOTE - rod position 100\% equals fully inserted, whilst 0\% equal fully retracted.
+\item SELECT retract (R) for Reactor Protection Rod 01JDA10CG002.
+\item Again MONITOR Source range flux meter for increasing activity and Neutron trend for any sudden increases.
+\item WAIT until Reactor Protection Rod  01JDA10CG002 is fully retracted. Note - Once both Reactor Protection Rods (01JDA10CG001 and 01JDA10CG002) are fully retracted it will be possible to retract any of the 4 Control Rods.
+\item CONTINUE to RETRACT Reactor Control Rods 01JDA20CG001, 01JDA20CG002, 01JDA20CG003, 01JDA20CG004. MONITOR Start Up Rate (SUR) gauge (01JSA10CR001) to ensure increase in reactivity rate stays within design limits.
+\item MONITOR Source range flux meter (01JKA10CR001) for increasing activity and Neutron trend for any sudden increases. As trend Neutron detection line takes higher and higher vertical steps it may be necessary to change the vertical scale.
+\item If Criticality Estimate is accurate then Source range flux meter will go off-scale and Neutron detection trend off scale vertically (i.e. the number of released Neutrons has increased exponentially and the reactor is now Critical (i.e. the chain reaction is self sustaining). 
+\item SELECT Intermediate range flux meter (01JKA10CR002).
+\item CONTINUE retracting Reactor control rods 01JDA20CG001, 01JDA20CG002, 01JDA20CG003, 01JDA20CG004 until desired rod configuration is achieved. Note - At higher reactor loads all Reactor Control Rods must be near to fully retracted. Any deeply inserted rods will distort the core power distribution forcing the lower half of the reactor core to contribute more of the reactor load and the upper half less which can lead to a fuel rod experiencing higher than design temperatures in the lower core.  To protect against this Axial Displacement gauge (01JSA10CR003) monitors this power distribution and will initiate an alarm or even Reactor SCRAM if over design limits.
+\item Once Reactor Control Rods are at required position it is necessary to dilute the primary circuit boron concentrations to further increase Reactor load.
+\item DILUTE primary circuit boron concentrations whilst monitoring Start Up Rate (SUR) gauge (01JSA10CR001) if reactor power $<$ 5\% or Load Increase Rate (LIR) gauge (01JSA10CR002) if reactor power $>$ 5\%. LIR will monitor rate and if necessary give High alarm at 3.2 and even Reactor SCRAM at 5.2.
+\item When Reactor power $>$ 2\% SELECT Pull Condenser Vacuum (01MAJ10AH001).
+\item When Reactor power $>$ 5\% SELECT Power range flux meter (01JKA10CR003A/B).
+\item DILUTE primary circuit boron concentrations until reactor load is $>$ 20\%
+\item MONITOR Load Increase Rate (LIR) gauge (01JSA10CR002) as Reactor power increases
+\item CALIBRATE Power range flux meter (01JKA10CR003A/B) regularly.
+\item RESET STG Trip (01MAA10AH001). Steam Turbine should now automatically do the following steps;
+\begin{list}{$\bullet$}{}
+\item Steam Turbine Emergency Stop Valve (01MAA10AA001) will OPEN to 100\%.
+\item Steam Turbine Steam Admission Control Valve (01MAA10AA002) will open sufficiently to accelerate steam turbine rotor speed upwards.
+\item Once synchronous speed (1500 rpm as generator is of the 4 pole type operating on a 50Hz grid) generator excitation ON, followed by Generator Circuit Breaker (01MKA10GS001) will CLOSE.
+\item Steam Turbine Steam Admission Control Valve (01MAA10AA002) will continue to OPEN to increase Steam Turbine Load. Simultaneously Turbine Bypass Valves (01LBA60AA251 and 01LBA60AA252) will CLOSE.
+\item Steam Turbine load will increase to the point where all steam generated by the Reactor is utilised. To Further increase Steam Turbine load Reactor power must be increased.
+\end{list}
+\item DILUTE primary circuit boron concentrations until reactor load is $=$ 100\%
+\item at 50\% Reactor load CALIBRATE Power range flux (01JKA10CR003A/B).
+\item at 90\% Reactor load CALIBRATE Power range flux (01JKA10CR003A/B).
+\item at 95\% Reactor load CALIBRATE Power range flux (01JKA10CR003A/B).
+\item at 100\% Reactor load CALIBRATE Power range flux (01JKA10CR003A/B).
+\end{enumerate}
+
+\vspace*{1cm}
+\begin{center}
+\resizebox{!}{0.8cm}{Full Load Achieved}
+\end{center}
+
+
+
+
+
+
+\vspace*{2cm}
+
+
+\begin{center}
+\setlength{\fboxrule}{0.5mm}
+   \fcolorbox{black}{yellow}{
+         \begin{minipage}[t]{0.85\textwidth}
+\begin{center}
+\vspace*{0.5cm}
+\textbf{Disclaimer}
+\end{center}
+
+This document is provided by Richard J Smith 'as is' and 'with all faults'. The provider makes no representations or warranties of any kind concerning the safety, suitability, inaccuracies, typographical errors, or other harmful components of this document and software.\\
+\\
+The sole purpose of this document is to provide a guide to the accompanying application.\\
+\begin{center}
+Use the information contained at your own risk.
+\vspace*{0.5cm}    
+\end{center}
+         \end{minipage}
+      }
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
