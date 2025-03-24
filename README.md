@@ -18,6 +18,11 @@ It is still very much a work in progress but currently can simulate operation of
 - simplified Main Cooling Water, Service Water and Closed Cooling Water systems
 - simulation of various faults (Fallen rod, Ejected rod, Turbine trip, RCP trip and Runback, LOCA (Loss of Collant Accident)
 
+Minimum System requirements are;
+- Apple M1 Pro
+- 14-inch (3024 x 1964) screen
+- macOS 13 Ventura
+
 Please find some current screenshots below.
 
 ![Opening Screen view](/Screenshots/ReactorControl.png)
