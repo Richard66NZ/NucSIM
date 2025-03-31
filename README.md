@@ -21,7 +21,8 @@ It is still very much a work in progress but currently can simulate operation of
 Minimum System requirements are;
 - Apple M1 Pro
 - 14-inch (3024 x 1964) screen
-- macOS 13 Ventura
+- macOS 11 Big Sur
+- Intel installation package is uploaded but not tested.
 
 Please find some current screenshots below.
 
