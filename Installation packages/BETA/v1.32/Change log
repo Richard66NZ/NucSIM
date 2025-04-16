@@ -1,0 +1,15 @@
+# Change log
+16 April 2025
+## Added features
+- turbine Hot start/Cold start run up sequence added. 
+
+## Changes
+- control rod visual representation on screen now moves in 1% increments (previously it was in 10% steps).
+- Steam generator draining rate has been reduced.
+- Pressuriser draining/filling rate also reduced.
+- turbine cold start runup rate reduced (i.e. it now takes longer to reach syncronise speed).
+- Primary coolant heating when in mode 5 or mode 4 is slowed down.
+
+## Bug fix
+- if steam turbine trips whilst running to speed, before circuit breaker clsoing the turbine speed will now ramp down in a realisitic fashion. 
+Previously due to a bug it would  instantaly drop to 0 rpm.
