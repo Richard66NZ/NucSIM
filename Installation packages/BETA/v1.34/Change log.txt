@@ -1,0 +1,69 @@
+Change log
+
+11 May 2025
+
+Added features
+- turbine sequence page added (used for starting/stopping steam turbine, selecting AUTO/Manual runup, etc)
+- Electrical page added (used to start/stop excitation and manually synchronise generator to grid)
+- if turbine is COLD (<150 deg C rotor temperature) during startup the turbine and steam chest (ESV and CV valve bodies) will go through some warming steps before turbine starts.
+- if turbine HOT (>150 deg C rotor temperature) these steps will be bypassed.
+- generator can now be manually synchronised to the electrical grid.
+
+Changes
+- spray valve on the pressurizer can be shut down if reactor mode 4 or 5.
+
+Bug fix
+- issue of Generator Circuit breaker not OPENING on turbine shutdown fixed.
+
+
+
+2 May 2025
+
+Added features
+- turbine lube oil (tank heater, cooling loop, lube pump, turning gear)
+- Turbine CTRL oil
+- Turbine gland steam system
+- Turbine metal temperature
+
+Changes
+- Primary coolant heating when in mode 5 or mode 4 is slowed down further. 12 minutes to 100 deg C and 12-20 minutes to design P and T
+- RCP spin up/down slower - 2x
+- Turbine - prep - heating lube oil, starting lube oil, jacking oil, turning gear
+- seal steam manual start
+
+Bug fix
+- RHR cooling after shutdown - check CW in service and heaters off then should cool at accelerated rate
+
+
+
+16 April 2025
+
+Added features
+- turbine Hot start/Cold start run up sequence added. 
+
+Changes
+- control rod visual representation on screen now moves in 1% increments (previously it was in 10% steps).
+- Steam generator draining rate has been reduced.
+- Pressuriser draining/filling rate also reduced.
+- turbine cold start runup rate reduced (i.e. it now takes longer to reach syncronise speed).
+- Primary coolant heating when in mode 5 or mode 4 is slowed down.
+
+Bug fix
+- if steam turbine trips whilst running to speed, before circuit breaker clsoing the turbine speed will now ramp down in a realisitic fashion. 
+Previously due to a bug it would  instantaly drop to 0 rpm.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
