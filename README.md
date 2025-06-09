@@ -43,8 +43,6 @@ Please find some current screenshots below.
 The following is my to-do list;
 
 - complete operations manual
-- tidy up each screen and add trending where appropriate
-- standardise KKS plant coding for all equipment
 - improve Iodine/Xenon negative effect on reactivity modelling
 - add further faults that may be experienced into the simulation
 
