@@ -16,7 +16,7 @@ It is still very much a work in progress but currently can simulate operation of
 - Alarm/Event, Trip/SCRAM and Runback systems
 - simplified Condensate and Feedwater Systems
 - simplified Main Cooling Water, Service Water and Closed Cooling Water systems
-- simulation of various faults (Fallen rod, Ejected rod, Turbine trip, RCP trip and Runback, LOCA (Loss of Collant Accident)
+- simulation of various faults (Fallen rod, Ejected rod, Turbine trip, RCP trip and Runback, LOCA (Loss of Coolant Accident)
 
 Minimum System requirements are;
 - Apple M1 Pro
