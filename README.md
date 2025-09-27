@@ -23,7 +23,7 @@ Minimum System requirements are;
 - 14-inch (3024 x 1964) screen
 - macOS 11 Big Sur
 
-[[Download latest version at my website - https://richardspowergenerationpage.com](https://richardspowergenerationpage.com/?page_id=73)](https://richardspowergenerationpage.com/?page_id=73)
+[[Download latest version at my website - https://richardspowergenerationpage.com](https://richardspowergenerationpage.com/?page_id=73)]
 
 Please find some current screenshots below.
 
