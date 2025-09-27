@@ -23,6 +23,8 @@ Minimum System requirements are;
 - 14-inch (3024 x 1964) screen
 - macOS 11 Big Sur
 
+[Download latest version at my website - https://richardspowergenerationpage.com]([https://www.google.com](https://richardspowergenerationpage.com/?page_id=73))
+
 Please find some current screenshots below.
 
 ![Opening Screen view](/Screenshots/ReactorControl.png)
@@ -41,7 +43,7 @@ Please find some current screenshots below.
 
 The following is my to-do list;
 
-- complete operations manual
+- complete operations manual - done
 - improve Iodine/Xenon negative effect on reactivity modelling
 - add further faults that may be experienced into the simulation
 
